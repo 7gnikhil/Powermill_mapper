@@ -1,0 +1,8 @@
+{
+  "name": "PowerMill ML Plugin System",
+  "description": "Complete four-layer architecture and development workbench for Autodesk PowerMill C# plugins with embedded ONNX ML domain models and one-click PowerShell deployment.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
