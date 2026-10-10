@@ -1,5 +1,21 @@
+# PowerMill ML Plugin System & One-Click Deployer
+
+> **Local Quick Start**: Double-click `run-local.bat` or `Install.bat` to build and launch immediately on your local machine.
+
+```bash
+# Option A: Local Web Studio & Simulator (Cross-platform)
+npm install
+npm run build
+npm start          # Runs on http://localhost:3000
+
+# Option B: One-Click Windows PowerMill Native Plugin Deployer
+.\deployer\Install.bat   # Auto-elevates, builds C# plugin, registers COM, opens PowerMill
+```
+
+---
+
 # PowerMill API Examples
-Welcome to the Autodesk PowerMill API Examples repository.   This repo provides the source code for advanced plugins which are included with the PowerMill application only in compiled form or not included directly at all.  These plugins are translators that use the PowerMill API to export data from PowerMill to third party applications such as Vericut.
+Welcome to the Autodesk PowerMill API Examples repository. This repo provides the source code for advanced plugins which are included with the PowerMill application only in compiled form or not included directly at all. These plugins are translators that use the PowerMill API to export data from PowerMill to third party applications such as Vericut.
 
 The PowerMill development team is not actively maintaining or enhancing these plugins.  The source code is being made available to third parties who would like to do their own enhancements, or who would like to use these examples as templates for creating interfaces to other products.  Contributions to this repo will be reviewed and considered for inclusion (see below), but please be aware that these plugins have low development priority.
 
